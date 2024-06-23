@@ -1,0 +1,4 @@
+CompileFlags:
+    Add:
+        - "--cuda-gpu-arch=sm_89"
+    Remove: [-ccbin=*,-rdc=*,-gencode,-G]

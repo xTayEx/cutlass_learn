@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/xtayex/Documents/cutlass_learn",
+  "arguments": ["/opt/cuda/bin/nvcc", "-c", "-Xcompiler", "-fPIE", "-G", "-g", "-lineinfo", "-O0", "-I/opt/cuda/include", "-I/home/xtayex/.xmake/packages/c/cutlass/v3.5.0/377b4a3984374c63afad2bfd7dfd5cb0/include", "-m64", "-rdc=true", "-gencode", "arch=compute_89,code=sm_89", "-gencode", "arch=compute_89,code=compute_89", "-o", "build/.objs/cutlass_learn/linux/x86_64/debug/src/main.cu.o", "src/main.cu"],
+  "file": "src/main.cu"
+}]
